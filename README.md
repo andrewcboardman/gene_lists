@@ -1,5 +1,14 @@
 ### List of gene lists
 
+
+The files required are 
+- `drugbank.xml` - this contains the whole DrugBank database in XML form and can be downloaded from the drugbank website
+- `opentargets_drugs_20.06.json` - this contains all opentargets evidence relating to drugs. it can be downloaded from `ftp.ebi.ac.uk/pub/databases/opentargets/platform/21.11/output/etl/json/molecule`
+- `ATC.csv` - this contains definitions for all WHO ATC codes. It can be downloaded from `https://bioportal.bioontology.org/ontologies/ATC/`
+- `guidetopharm_drugs.csv` - this contains all approved drugs in the GuideToPharmacology database and their primary targets. It can be downloaded from `https://www.guidetopharmacology.org/DATA/approved_drug_primary_target_interactions.csv`
+- `guidetopharm_targets.csv` - this contains all targets in the GuideToPharmacology database, annotated with families. It can be downloaded from `https://www.guidetopharmacology.org/DATA/targets_and_families.csv`
+
+
 Often in bioinformatics we want a list of genes so that we can ask, "are genes in this list more X than other genes?" or "are genes in this list enriched in this other list?" and so on. There are many useful lists out there, but many of them are in an Excel file supplement to a paper, or an XML format with loads of other info you don't need, or use outdated gene symbols. For one reason or another, it often takes a lot of work to wrestle them into a format you can use. This repository is the MacArthur Lab's effort to collect all the lists we find useful into one place, with each formatted as just a single-column text file listing the current gene symbols.
 
 Here is a guide to the lists we currently have in this repo:
