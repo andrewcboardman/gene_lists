@@ -1,4 +1,29 @@
-### List of gene lists
+# GPCR-focused gene annotations
+
+## Overview
+This repository contains lists of genes with particular phenotypic associations. It is based on the Macarthur lab's resource, but has been updated and to focus on GPCR genes.
+
+| List | Count | Description | Please cite |
+| ---- | ---- | ---- | ---- |
+| [Universe](lists/universe.tsv) | 19,208 | Approved symbols for 19,208 protein-coding genes. This list is the "universe" of which all subsequent lists are subsets. | "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute" (http://www.genenames.org/) |
+| [GPCR genes by family](lists/targets.tsv) | 392+ | Non-olfactory protein-coding GPCR genes from GuideToPharmacology with families from GPCRdb |  [[UniProt Consortium 2018]] [[Alexander 2017] & [Harding 2018]]|
+| [Approved or investigational drug targets](lists/drug_targets.tsv) | 385 | Genes whose protein products are known to be the mechanistic targets of FDA-approved drugs (*updated 2018-09-13*). For details on the exact criteria we used for inclusion in this list, see [src/drug_targets.py](src/drug_targets.py)  | See [drugbank.ca/about](http://www.drugbank.ca/about). Please cite [[Law 2014], [Knox 2011], [Wishart 2008], [Wishart 2006], and/or [Wishart 2018]].  |
+| [Genetic disease genes](lists/disease_genes.tsv) | 2000+ | Data from OMIM and with additional curation from the union of the Berg and Blekhman dominant & recessive lists | [[Blekhman 2008], [Berg 2013]] [[Rehm 2015]]|
+| [Essential in mice](lists/mgi_essential.tsv) | 2,454 | Genes where homozygous knockout in mice results in pre-, peri- or post-natal lethality. The mouse phenotypes were reported by Jackson Labs [[Blake 2011]], then essential gene list was extracted via manual review of phenotypes by [[Georgi 2013]], and the essential/non-essential flag was put into dbNSFP [[Liu 2013]]. We extracted the genes from dbNSFP. Also need to add IMPC if this is different?| [[Blake 2011], [Georgi 2013], and [Liu 2013]] |
+| [Essential in human cells](lists/mgi_essential.tsv) | 2,454 | Genes where homozygous knockout in mice results in pre-, peri- or post-natal lethality. The mouse phenotypes were reported by Jackson Labs [[Blake 2011]], then essential gene list was extracted via manual review of phenotypes by [[Georgi 2013]], and the essential/non-essential flag was put into dbNSFP [[Liu 2013]]. We extracted the genes from dbNSFP. Also need to add IMPC if this is different?| [[Blake 2011], [Georgi 2013], and [Liu 2013]] |
+
+## Methods
+* Human GPCR genes were extracted from Guide To Pharmacology and annotated with GPCRdb family slugs
+* GPCR-linked genetic disease were extracted from the work of Schoeneberg (2021) and modes of inheritance were assigned based on OMIM data
+* GPCR drug targets were extracted from drugbank
+* GPCRs with associated mouse phenotypes were extracted from IMPC data
+
+## Potential addons
+* Drug targets from [[Nelson 2012], [Russ & Lampel 2005]]
+* Add Olfactory receptors from Mainland 2015's [data release](http://files.figshare.com/1816348/Receptors.tsv); Kinases; Nuclear receptors [[Hunter 2000], [Manning 2002], [Miranda-Saavedra & Barton 2007]] 
+* Also possibly include Natural product targets from [[Dancik 2010]]
+* Genes deemed essential in multiple cultured cell lines based on shRNA and CRISPR/Cas screening data [[Hart 2014], [Hart 2017]]
+* add ClinVar [[Landrum 2014]] later  & Genes with sufficient evidence for dosage pathogenicity (level 3) as determined by the ClinGen Dosage Sensitivity Map as of Sep 13, 2018 
 
 
 The files required are 
@@ -7,48 +32,6 @@ The files required are
 - `ATC.csv` - this contains definitions for all WHO ATC codes. It can be downloaded from `https://bioportal.bioontology.org/ontologies/ATC/`
 - `guidetopharm_drugs.csv` - this contains all approved drugs in the GuideToPharmacology database and their primary targets. It can be downloaded from `https://www.guidetopharmacology.org/DATA/approved_drug_primary_target_interactions.csv`
 - `guidetopharm_targets.csv` - this contains all targets in the GuideToPharmacology database, annotated with families. It can be downloaded from `https://www.guidetopharmacology.org/DATA/targets_and_families.csv`
-
-
-Often in bioinformatics we want a list of genes so that we can ask, "are genes in this list more X than other genes?" or "are genes in this list enriched in this other list?" and so on. There are many useful lists out there, but many of them are in an Excel file supplement to a paper, or an XML format with loads of other info you don't need, or use outdated gene symbols. For one reason or another, it often takes a lot of work to wrestle them into a format you can use. This repository is the MacArthur Lab's effort to collect all the lists we find useful into one place, with each formatted as just a single-column text file listing the current gene symbols.
-
-Here is a guide to the lists we currently have in this repo:
-
-| List | Count | Description | Please cite |
-| ---- | ---- | ---- | ---- |
-| [Universe](lists/universe.tsv) | 19,194 | Approved symbols for 18,991 protein-coding genes according to HGNC as of Feb 9, 2015. For details see [src/create_universe.bash](src/create_universe.bash). This list is the "universe" of which all subsequent lists are subsets. | See [genenames.org/about/overview](http://www.genenames.org/about/overview). Users are asked to web reference "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute" (http://www.genenames.org/) if possible. |
-| [FDA-approved drug targets](lists/fda_approved_drug_targets.tsv) | 385 | Genes whose protein products are known to be the mechanistic targets of FDA-approved drugs (*updated 2018-09-13*). For details on the exact criteria we used for inclusion in this list, see [src/drug_targets.py](src/drug_targets.py) | See [drugbank.ca/about](http://www.drugbank.ca/about). Please cite [[Law 2014], [Knox 2011], [Wishart 2008], [Wishart 2006], and/or [Wishart 2018]]. |
-| [Drug targets by Nelson et al 2012](lists/drug_targets_nelson.tsv) | 201 | Drug targets according to Nelson et al 2012, with reference to Russ & Lampel 2005. | [[Nelson 2012], [Russ & Lampel 2005]] |
-| [Autosomal dominant genes by Blekhman et al 2008](lists/blekhman_ad.tsv) | 307 | OMIM disease genes deemed to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group. | [[Blekhman 2008]] |
-| [Autosomal dominant genes by Berg et al 2013](lists/berg_ad.tsv) | 631 | OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance according Berg et al, 2013. | [[Berg 2013]] |
-| [Autosomal recessive genes by Blekhman et al 2008](lists/blekhman_ar.tsv) | 527 | OMIM disease genes deemed to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group. | [[Blekhman 2008]] |
-| [Autosomal recessive genes by Berg et al 2013](lists/berg_ar.tsv) | 1073 | OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance according Berg et al, 2013. | [[Berg 2013]] |
-| [X-linked genes by Blekhman et al 2008](lists/blekhman_x.tsv) | 66 | OMIM disease genes deemed to follow X-linked inheritance (dominant/recessive not specified) according to extensive manual curation by Molly Przeworski's group. | [[Blekhman 2008]] |
-| [X-linked recessive genes by Berg et al 2013](lists/berg_xr.tsv) | 102 | OMIM disease genes (as of June 2011) deemed to follow X-linked recessive inheritance according Berg et al, 2013. | [[Berg 2013]] |
-| [X-linked dominant genes by Berg et al 2013](lists/berg_xd.tsv) | 34 | OMIM disease genes (as of June 2011) deemed to follow X-linked dominant inheritance according Berg et al, 2013. | [[Berg 2013]] |
-| [X-linked ClinVar genes](lists/x-linked_clinvar.tsv) | 61 | X chromosome genes in the August 6, 2015 ClinVar release that have at least 3 reportedly pathogenic, non-conflicted variants in ClinVar with at least one submitter other than OMIM or GeneReviews. [Code here](src/x-linked_clinvar.R). | Cite the ClinVar paper [[Landrum 2014]] |
-| [All dominant genes](lists/all_ad.tsv) | 709 | Currently the union of the Berg and Blekhman dominant lists, may add more lists later. | [[Blekhman 2008], [Berg 2013]] |
-| [All recessive genes](lists/all_ar.tsv) | 1183 | Currently the union of the Berg and Blekhman recessive lists, may add more lists later. | [[Blekhman 2008], [Berg 2013]] |
-| [Homozygous LoF tolerant](lists/homozygous_lof_tolerant_twohit.tsv) | 330 | Genes with at least two different high-confidence LoF variants found in a homozygous state in at least one individual in ExAC. By Konrad Karczewski. | Just cite the ExAC paper [[Lek 2016]] |
-| [Essential in culture](lists/core_essentials_hart.tsv) | 283 | Genes deemed essential in multiple cultured cell lines based on shRNA screen data | [[Hart 2014]] |
-| [Essential in culture (CRISPR screening)](lists/CEGv2_subset_universe.tsv) | 683 | Genes deemed essential in multiple cultured cell lines based on CRISPR/Cas screen data | [[Hart 2017]] |
-| [Non-essential in culture (CRISPR screening)](lists/NEGv1_subset_universe.tsv) | 913 | Genes deemed non-essential in multiple cultured cell lines based on CRISPR/Cas screen data | [[Hart 2017]] |
-| [Essential in mice](lists/mgi_essential.tsv) | 2,454 | Genes where homozygous knockout in mice results in pre-, peri- or post-natal lethality. The mouse phenotypes were reported by Jackson Labs [[Blake 2011]], then essential gene list was extracted via manual review of phenotypes by [[Georgi 2013]], and the essential/non-essential flag was put into dbNSFP [[Liu 2013]]. We extracted the genes from dbNSFP. | [[Blake 2011], [Georgi 2013], and [Liu 2013]] |
-| [Genes nearest to GWAS peaks](lists/gwascatalog.tsv) | 6,336 | Closest gene to GWAS hits  with *P* < 5-e8 in the NHGRI GWAS catalog (MAPPED_GENE column) as of Sep 13, 2018 | [[MacArthur 2017]] |
-| [DNA Repair Genes, WoodRD](lists/DRG_WoodRD.tsv) | 178 | An updated inventory of human DNA repair genes. (Last modified on Tuesday 15th April 2014). For details see [src/DRG_WoodRD.R](src/DRG_WoodRD.R) | Cite [[Wood 2005]] and include a web reference to [this URL](http://sciencepark.mdanderson.org/labs/wood/dna_repair_genes.html). |
-| [DNA Repair Genes, KangJ](lists/DRG_KangJ.tsv) | 151 | Supplementary Table 1. 151 DNA repair genes. DNA repair genes from DNA repair pathways: ATM, BER, FA/HR, MMR, NHEJ, NER, TLS, XLR, RECQ, and other. | Cite [[Kang 2012]] |
-| [ClinGen haploinsufficient genes](lists/clingen_level3_genes_2018_09_13.tsv) | 294 | Genes with sufficient evidence for dosage pathogenicity (level 3) as determined by the ClinGen Dosage Sensitivity Map as of Sep 13, 2018 | Cite [[Rehm 2015]]. See also [ClinGen's TOU](https://www.clinicalgenome.org/about/terms-of-use/) |
-| [Olfactory receptors](lists/olfactory_receptors.tsv) | 371 | Olfactory receptors from the Mainland 2015's [data release](http://files.figshare.com/1816348/Receptors.tsv) | [Mainland 2015] |
-| [Genes with any disease association reported in ClinVar](lists/clinvar_path_likelypath.tsv) | 3078 | Using [this simple script](src/clinvar_path_likelypath.tsv), downloaded the ClinVar tab-delimited summary as of May 12, 2015, and took all gene symbols for which there is at least one variant with an assertion of pathogenic or likely pathogenic in ClinVar. | Cite the ClinVar paper [[Landrum 2014]] |
-| [Kinases](lists/kinases.tsv) | 347 | From UniProt's [pkinfam list](http://www.uniprot.org/docs/pkinfam) | [[UniProt Consortium 2018]], and also [according to UniProt](http://www.uniprot.org/docs/pkinfam) this list is based on 3 publications: [[Hunter 2000], [Manning 2002], [Miranda-Saavedra & Barton 2007]] |
-| [GPCRs from guidetopharmacology](lists/gpcr_guide.tsv) | 391 | GPCR list from [guidetopharmacology.org](http://www.guidetopharmacology.org/download.jsp) | Citing instructions [here](http://www.guidetopharmacology.org/citing.jsp) &mdash; for GPCRs, cite [[Alexander 2017] & [Harding 2018]]. |
-| [GPCRs from Uniprot](lists/gpcr_uniprot.tsv) | 756 | [This query](https://www.uniprot.org/uniprot/?query=keyword:%22G-protein%20coupled%20receptor%20[KW-0297]%22&fil=organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22+AND+reviewed%3Ayes) of the Uniprot database | [[UniProt Consortium 2018]] |
-| [GPCRs all](lists/gpcr_union.tsv) | 759 | Union of the above two lists | See previous two entries |
-| [Natural product targets](lists/natural_product_targets.tsv) | 37 | List of hand-curated targets of natural products from supplement of [[Dancik 2010]] | [[Dancik 2010]] |
-| [BROCA - Cancer Risk Panel](lists/BROCA_Cancer_Risk_Panel.tsv) | 66 | BROCA is useful for the evaluation of patients with a suspected hereditary cancer predisposition, with a focus on syndromes that include breast or ovarian cancer as one of the cancer types. Depending on the causative gene involved, these cancers may co-occur with other cancer types (such as colorectal, endometrial, pancreatic, endocrine, or melanoma). | [University of Washington](http://depts.washington.edu/labweb/Divisions/MolDiag/MolDiagGen/index.htm) |
-| [ACMG V2.0](lists/ACMG_list_2_0.tsv) | 59 | The minimum list of genes to be reported as incidental or secondary findings as published by the American College of Medical Genetics and Genomics (ACMG) | [[Kalia 2017]] |
-| [GPI-anchored proteins](lists/gpi_anchored.tsv) | 135 | Gene symbols encoding proteins [annotated by UniProt](https://www.uniprot.org/uniprot/?query=keyword:%22GPI-anchor%20[KW-0336]%22&fil=organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22) as being GPI-anchored. | Cite the latest UniProt paper: [[UniProt Consortium 2017]] |
-
-We welcome pull requests for adding additional lists, provided they are licensed for redistribution. If possible, please provide the source code used to extract the list from its original source, and an appropriate description for this readme.
 
 [Dancik 2010]: http://www.ncbi.nlm.nih.gov/pubmed/20565092 "Dancík V, Seiler KP, Young DW, Schreiber SL, Clemons PA. Distinct biological network properties between the targets of natural products and disease genes. J Am Chem Soc. 2010 Jul 14;132(27):9259-61. doi: 10.1021/ja102798t. PubMed PMID: 20565092; PubMed Central PMCID: PMC2898216."
 

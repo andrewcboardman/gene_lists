@@ -6,7 +6,7 @@ lists/universe.tsv:
 lists/disease_genes.tsv:
 	src/get_disease_genes.bash
 
-lists/drug_targets.tsv:
+lists/drug_targets.tsv: data/drugbank.xml
 	src/drugbank_parse.py
 
 lists/model_organisms.tsv:

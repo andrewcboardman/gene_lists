@@ -1,0 +1,399 @@
+,HGNC_symbol,Uniprot_accession,Target_name,Family_name,HGNC_name
+0,HTR1A,P08908,5-HT<sub>1A</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 1A
+1,HTR1B,P28222,5-HT<sub>1B</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 1B
+2,HTR1D,P28221,5-HT<sub>1D</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 1D
+3,HTR1E,P28566,5-ht<sub>1e</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 1E
+4,HTR1F,P30939,5-HT<sub>1F</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 1F
+5,HTR2A,P28223,5-HT<sub>2A</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 2A
+6,HTR2B,P41595,5-HT<sub>2B</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 2B
+7,HTR2C,P28335,5-HT<sub>2C</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 2C
+8,HTR4,Q13639,5-HT<sub>4</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 4
+9,HTR5A,P47898,5-HT<sub>5A</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 5A
+11,HTR6,P50406,5-HT<sub>6</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 6
+12,HTR7,P34969,5-HT<sub>7</sub> receptor,5-Hydroxytryptamine receptors,5-hydroxytryptamine receptor 7
+13,CHRM1,P11229,M<sub>1</sub> receptor,Acetylcholine receptors (muscarinic),cholinergic receptor muscarinic 1
+14,CHRM2,P08172,M<sub>2</sub> receptor,Acetylcholine receptors (muscarinic),cholinergic receptor muscarinic 2
+15,CHRM3,P20309,M<sub>3</sub> receptor,Acetylcholine receptors (muscarinic),cholinergic receptor muscarinic 3
+16,CHRM4,P08173,M<sub>4</sub> receptor,Acetylcholine receptors (muscarinic),cholinergic receptor muscarinic 4
+17,CHRM5,P08912,M<sub>5</sub> receptor,Acetylcholine receptors (muscarinic),cholinergic receptor muscarinic 5
+18,ADORA1,P30542,A<sub>1</sub> receptor,Adenosine receptors,adenosine A1 receptor
+19,ADORA2A,P29274,A<sub>2A</sub> receptor,Adenosine receptors,adenosine A2a receptor
+20,ADORA2B,P29275,A<sub>2B</sub> receptor,Adenosine receptors,adenosine A2b receptor
+21,ADORA3,P0DMS8,A<sub>3</sub> receptor,Adenosine receptors,adenosine A3 receptor
+22,ADGRA1,Q86SQ6,ADGRA1,Adhesion Class GPCRs,adhesion G protein-coupled receptor A1
+23,ADGRA2,Q96PE1,ADGRA2,Adhesion Class GPCRs,adhesion G protein-coupled receptor A2
+24,ADGRA3,Q8IWK6,ADGRA3,Adhesion Class GPCRs,adhesion G protein-coupled receptor A3
+25,ADGRB1,O14514,ADGRB1,Adhesion Class GPCRs,adhesion G protein-coupled receptor B1
+26,ADGRB2,O60241,ADGRB2,Adhesion Class GPCRs,adhesion G protein-coupled receptor B2
+27,ADGRB3,O60242,ADGRB3,Adhesion Class GPCRs,adhesion G protein-coupled receptor B3
+28,CELSR1,Q9NYQ6,<i>CELSR1</i>,Adhesion Class GPCRs,cadherin EGF LAG seven-pass G-type receptor 1
+29,CELSR2,Q9HCU4,<i>CELSR2</i>,Adhesion Class GPCRs,cadherin EGF LAG seven-pass G-type receptor 2
+30,CELSR3,Q9NYQ7,<i>CELSR3</i>,Adhesion Class GPCRs,cadherin EGF LAG seven-pass G-type receptor 3
+31,ADGRD1,Q6QNK2,ADGRD1,Adhesion Class GPCRs,adhesion G protein-coupled receptor D1
+32,ADGRD2,Q7Z7M1,ADGRD2,Adhesion Class GPCRs,adhesion G protein-coupled receptor D2
+33,ADGRE1,Q14246,ADGRE1,Adhesion Class GPCRs,adhesion G protein-coupled receptor E1
+34,ADGRE2,Q9UHX3,ADGRE2,Adhesion Class GPCRs,adhesion G protein-coupled receptor E2
+35,ADGRE3,Q9BY15,ADGRE3,Adhesion Class GPCRs,adhesion G protein-coupled receptor E3
+36,ADGRE4P,Q86SQ3,ADGRE4P,Adhesion Class GPCRs,"adhesion G protein-coupled receptor E4, pseudogene"
+37,ADGRE5,P48960,ADGRE5,Adhesion Class GPCRs,adhesion G protein-coupled receptor E5
+38,ADGRF1,Q5T601,ADGRF1,Adhesion Class GPCRs,adhesion G protein-coupled receptor F1
+39,ADGRF2,Q8IZF7,ADGRF2,Adhesion Class GPCRs,adhesion G protein-coupled receptor F2
+40,ADGRF3,Q8IZF5,ADGRF3,Adhesion Class GPCRs,adhesion G protein-coupled receptor F3
+41,ADGRF4,Q8IZF3,ADGRF4,Adhesion Class GPCRs,adhesion G protein-coupled receptor F4
+42,ADGRF5,Q8IZF2,ADGRF5,Adhesion Class GPCRs,adhesion G protein-coupled receptor F5
+43,ADGRG1,Q9Y653,ADGRG1,Adhesion Class GPCRs,adhesion G protein-coupled receptor G1
+44,ADGRG2,Q8IZP9,ADGRG2,Adhesion Class GPCRs,adhesion G protein-coupled receptor G2
+45,ADGRG3,Q86Y34,ADGRG3,Adhesion Class GPCRs,adhesion G protein-coupled receptor G3
+46,ADGRG4,Q8IZF6,ADGRG4,Adhesion Class GPCRs,adhesion G protein-coupled receptor G4
+47,ADGRG5,Q8IZF4,ADGRG5,Adhesion Class GPCRs,adhesion G protein-coupled receptor G5
+48,ADGRG6,Q86SQ4,ADGRG6,Adhesion Class GPCRs,adhesion G protein-coupled receptor G6
+49,ADGRG7,Q96K78,ADGRG7,Adhesion Class GPCRs,adhesion G protein-coupled receptor G7
+50,ADGRL1,O94910,ADGRL1,Adhesion Class GPCRs,adhesion G protein-coupled receptor L1
+51,ADGRL2,O95490,ADGRL2,Adhesion Class GPCRs,adhesion G protein-coupled receptor L2
+52,ADGRL3,Q9HAR2,ADGRL3,Adhesion Class GPCRs,adhesion G protein-coupled receptor L3
+53,ADGRL4,Q9HBW9,ADGRL4,Adhesion Class GPCRs,adhesion G protein-coupled receptor L4
+54,ADGRV1,Q8WXG9,ADGRV1,Adhesion Class GPCRs,adhesion G protein-coupled receptor V1
+55,ADRA1A,P35348,&alpha;<sub>1A</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 1A
+56,ADRA1B,P35368,&alpha;<sub>1B</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 1B
+57,ADRA1D,P25100,&alpha;<sub>1D</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 1D
+58,ADRA2A,P08913,&alpha;<sub>2A</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 2A
+59,ADRA2B,P18089,&alpha;<sub>2B</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 2B
+60,ADRA2C,P18825,&alpha;<sub>2C</sub>-adrenoceptor,Adrenoceptors,adrenoceptor alpha 2C
+61,ADRB1,P08588,&beta;<sub>1</sub>-adrenoceptor,Adrenoceptors,adrenoceptor beta 1
+62,ADRB2,P07550,&beta;<sub>2</sub>-adrenoceptor,Adrenoceptors,adrenoceptor beta 2
+63,ADRB3,P13945,&beta;<sub>3</sub>-adrenoceptor,Adrenoceptors,adrenoceptor beta 3
+64,AGTR1,P30556,AT<sub>1</sub> receptor,Angiotensin receptors,angiotensin II receptor type 1
+65,AGTR2,P50052,AT<sub>2</sub> receptor,Angiotensin receptors,angiotensin II receptor type 2
+66,APLNR,P35414,apelin receptor,Apelin receptor,apelin receptor
+67,GPBAR1,Q8TDU6,GPBA receptor,Bile acid receptor,G protein-coupled bile acid receptor 1
+68,NMBR,P28336,BB<sub>1</sub> receptor,Bombesin receptors,neuromedin B receptor
+69,GRPR,P30550,BB<sub>2</sub> receptor,Bombesin receptors,gastrin releasing peptide receptor
+70,BRS3,P32247,BB<sub>3</sub> receptor,Bombesin receptors,bombesin receptor subtype 3
+71,BDKRB1,P46663,B<sub>1</sub> receptor,Bradykinin receptors,bradykinin receptor B1
+72,BDKRB2,P30411,B<sub>2</sub> receptor,Bradykinin receptors,bradykinin receptor B2
+73,CALCR,P30988,CT receptor,Calcitonin receptors,calcitonin receptor
+77,CALCRL,Q16602,calcitonin receptor-like receptor,Calcitonin receptors,calcitonin receptor like receptor
+81,CASR,P41180,CaS receptor,Calcium-sensing receptor,calcium sensing receptor
+82,CNR1,P21554,CB<sub>1</sub> receptor,Cannabinoid receptors,cannabinoid receptor 1
+83,CNR2,P34972,CB<sub>2</sub> receptor,Cannabinoid receptors,cannabinoid receptor 2
+84,CMKLR1,Q99788,chemerin receptor 1,Chemerin receptors,chemerin chemokine-like receptor 1
+85,CMKLR2,P46091,chemerin receptor 2,Chemerin receptors,chemerin chemokine-like receptor 2
+86,CCR1,P32246,CCR1,Chemokine receptors,C-C motif chemokine receptor 1
+87,CCR2,P41597,CCR2,Chemokine receptors,C-C motif chemokine receptor 2
+88,CCR3,P51677,CCR3,Chemokine receptors,C-C motif chemokine receptor 3
+89,CCR4,P51679,CCR4,Chemokine receptors,C-C motif chemokine receptor 4
+90,CCR5,P51681,CCR5,Chemokine receptors,C-C motif chemokine receptor 5
+91,CCR6,P51684,CCR6,Chemokine receptors,C-C motif chemokine receptor 6
+92,CCR7,P32248,CCR7,Chemokine receptors,C-C motif chemokine receptor 7
+93,CCR8,P51685,CCR8,Chemokine receptors,C-C motif chemokine receptor 8
+94,CCR9,P51686,CCR9,Chemokine receptors,C-C motif chemokine receptor 9
+95,CCR10,P46092,CCR10,Chemokine receptors,C-C motif chemokine receptor 10
+96,CXCR1,P25024,CXCR1,Chemokine receptors,C-X-C motif chemokine receptor 1
+97,CXCR2,P25025,CXCR2,Chemokine receptors,C-X-C motif chemokine receptor 2
+98,CXCR3,P49682,CXCR3,Chemokine receptors,C-X-C motif chemokine receptor 3
+99,CXCR4,P61073,CXCR4,Chemokine receptors,C-X-C motif chemokine receptor 4
+100,CXCR5,P32302,CXCR5,Chemokine receptors,C-X-C motif chemokine receptor 5
+101,CXCR6,O00574,CXCR6,Chemokine receptors,C-X-C motif chemokine receptor 6
+102,CX3CR1,P49238,CX<sub>3</sub>CR1,Chemokine receptors,C-X3-C motif chemokine receptor 1
+103,XCR1,P46094,XCR1,Chemokine receptors,X-C motif chemokine receptor 1
+104,ACKR1,Q16570,ACKR1,Chemokine receptors,atypical chemokine receptor 1 (Duffy blood group)
+105,ACKR2,O00590,ACKR2,Chemokine receptors,atypical chemokine receptor 2
+106,ACKR3,P25106,ACKR3,Chemokine receptors,atypical chemokine receptor 3
+107,ACKR4,Q9NPB9,ACKR4,Chemokine receptors,atypical chemokine receptor 4
+108,CCRL2,O00421,CCRL2,Chemokine receptors,C-C motif chemokine receptor like 2
+109,CCKAR,P32238,CCK<sub>1</sub> receptor,Cholecystokinin receptors,cholecystokinin A receptor
+110,CCKBR,P32239,CCK<sub>2</sub> receptor,Cholecystokinin receptors,cholecystokinin B receptor
+111,GPR3,P46089,<i>GPR3</i>,Class A Orphans,G protein-coupled receptor 3
+112,GPR4,P46093,<i>GPR4</i>,Class A Orphans,G protein-coupled receptor 4
+113,GPR42,O15529,<i>GPR42</i>,Class A Orphans,G protein-coupled receptor 42
+114,GPR6,P46095,<i>GPR6</i>,Class A Orphans,G protein-coupled receptor 6
+115,GPR12,P47775,<i>GPR12</i>,Class A Orphans,G protein-coupled receptor 12
+116,GPR15,P49685,<i>GPR15</i>,Class A Orphans,G protein-coupled receptor 15
+117,GPR17,Q13304,<i>GPR17</i>,Class A Orphans,G protein-coupled receptor 17
+118,GPR19,Q15760,<i>GPR19</i>,Class A Orphans,G protein-coupled receptor 19
+119,GPR20,Q99678,<i>GPR20</i>,Class A Orphans,G protein-coupled receptor 20
+120,GPR21,Q99679,<i>GPR21</i>,Class A Orphans,G protein-coupled receptor 21
+121,GPR22,Q99680,<i>GPR22</i>,Class A Orphans,G protein-coupled receptor 22
+122,GPR25,O00155,<i>GPR25</i>,Class A Orphans,G protein-coupled receptor 25
+123,GPR26,Q8NDV2,<i>GPR26</i>,Class A Orphans,G protein-coupled receptor 26
+124,GPR27,Q9NS67,<i>GPR27</i>,Class A Orphans,G protein-coupled receptor 27
+125,GPR31,O00270,<i>GPR31</i>,Class A Orphans,G protein-coupled receptor 31
+126,GPR32,O75388,<i>GPR32</i>,Class A Orphans,G protein-coupled receptor 32
+127,GPR33,Q49SQ1,<i>GPR33</i>,Class A Orphans,G protein-coupled receptor 33
+128,GPR34,Q9UPC5,<i>GPR34</i>,Class A Orphans,G protein-coupled receptor 34
+129,GPR35,Q9HC97,<i>GPR35</i>,Class A Orphans,G protein-coupled receptor 35
+130,GPR37,O15354,<i>GPR37</i>,Class A Orphans,G protein-coupled receptor 37
+131,GPR37L1,O60883,<i>GPR37L1</i>,Class A Orphans,G protein-coupled receptor 37 like 1
+132,GPR39,O43194,<i>GPR39</i>,Class A Orphans,G protein-coupled receptor 39
+133,GPR45,Q9Y5Y3,<i>GPR45</i>,Class A Orphans,G protein-coupled receptor 45
+134,GPR50,Q13585,<i>GPR50</i>,Class A Orphans,G protein-coupled receptor 50
+135,GPR52,Q9Y2T5,<i>GPR52</i>,Class A Orphans,G protein-coupled receptor 52
+136,GPR61,Q9BZJ8,<i>GPR61</i>,Class A Orphans,G protein-coupled receptor 61
+137,GPR62,Q9BZJ7,<i>GPR62</i>,Class A Orphans,G protein-coupled receptor 62
+138,GPR63,Q9BZJ6,<i>GPR63</i>,Class A Orphans,G protein-coupled receptor 63
+139,GPR65,Q8IYL9,<i>GPR65</i>,Class A Orphans,G protein-coupled receptor 65
+140,GPR68,Q15743,<i>GPR68</i>,Class A Orphans,G protein-coupled receptor 68
+141,GPR75,O95800,<i>GPR75</i>,Class A Orphans,G protein-coupled receptor 75
+142,GPR78,Q96P69,<i>GPR78</i>,Class A Orphans,G protein-coupled receptor 78
+144,GPR82,Q96P67,<i>GPR82</i>,Class A Orphans,G protein-coupled receptor 82
+145,GPR83,Q9NYM4,<i>GPR83</i>,Class A Orphans,G protein-coupled receptor 83
+146,GPR84,Q9NQS5,<i>GPR84</i>,Class A Orphans,G protein-coupled receptor 84
+147,GPR85,P60893,<i>GPR85</i>,Class A Orphans,G protein-coupled receptor 85
+148,GPR87,Q9BY21,<i>GPR87</i>,Class A Orphans,G protein-coupled receptor 87
+149,GPR88,Q9GZN0,<i>GPR88</i>,Class A Orphans,G protein-coupled receptor 88
+150,GPR101,Q96P66,<i>GPR101</i>,Class A Orphans,G protein-coupled receptor 101
+151,GPR132,Q9UNW8,<i>GPR132</i>,Class A Orphans,G protein-coupled receptor 132
+152,GPR135,Q8IZ08,<i>GPR135</i>,Class A Orphans,G protein-coupled receptor 135
+153,GPR139,Q6DWJ6,<i>GPR139</i>,Class A Orphans,G protein-coupled receptor 139
+154,GPR141,Q7Z602,<i>GPR141</i>,Class A Orphans,G protein-coupled receptor 141
+155,GPR142,Q7Z601,<i>GPR142</i>,Class A Orphans,G protein-coupled receptor 142
+156,GPR146,Q96CH1,<i>GPR146</i>,Class A Orphans,G protein-coupled receptor 146
+157,GPR148,Q8TDV2,<i>GPR148</i>,Class A Orphans,G protein-coupled receptor 148
+158,GPR149,Q86SP6,<i>GPR149</i>,Class A Orphans,G protein-coupled receptor 149
+159,GPR150,Q8NGU9,<i>GPR150</i>,Class A Orphans,G protein-coupled receptor 150
+160,GPR151,Q8TDV0,<i>GPR151</i>,Class A Orphans,G protein-coupled receptor 151
+161,GPR152,Q8TDT2,<i>GPR152</i>,Class A Orphans,G protein-coupled receptor 152
+162,GPR153,Q6NV75,<i>GPR153</i>,Class A Orphans,G protein-coupled receptor 153
+163,GPR160,Q9UJ42,<i>GPR160</i>,Class A Orphans,G protein-coupled receptor 160
+164,GPR161,Q8N6U8,<i>GPR161</i>,Class A Orphans,G protein-coupled receptor 161
+165,GPR162,Q16538,<i>GPR162</i>,Class A Orphans,G protein-coupled receptor 162
+166,GPR171,O14626,<i>GPR171</i>,Class A Orphans,G protein-coupled receptor 171
+167,GPR173,Q9NS66,<i>GPR173</i>,Class A Orphans,G protein-coupled receptor 173
+168,GPR174,Q9BXC1,<i>GPR174</i>,Class A Orphans,G protein-coupled receptor 174
+169,GPR176,Q14439,<i>GPR176</i>,Class A Orphans,G protein-coupled receptor 176
+170,GPR182,O15218,<i>GPR182</i>,Class A Orphans,G protein-coupled receptor 182
+171,GPR183,P32249,<i>GPR183</i>,Class A Orphans,G protein-coupled receptor 183
+172,LGR4,Q9BXB1,<i>LGR4</i>,Class A Orphans,leucine rich repeat containing G protein-coupled receptor 4
+173,LGR5,O75473,<i>LGR5</i>,Class A Orphans,leucine rich repeat containing G protein-coupled receptor 5
+174,LGR6,Q9HBX8,<i>LGR6</i>,Class A Orphans,leucine rich repeat containing G protein-coupled receptor 6
+175,MAS1,P04201,<i>MAS1</i>,Class A Orphans,"MAS1 proto-oncogene, G protein-coupled receptor"
+176,MAS1L,P35410,<i>MAS1L</i>,Class A Orphans,"MAS1 proto-oncogene like, G protein-coupled receptor"
+177,MRGPRD,Q8TDS7,<i>MRGPRD</i>,Class A Orphans,MAS related GPR family member D
+178,MRGPRE,Q86SM8,<i>MRGPRE</i>,Class A Orphans,MAS related GPR family member E
+179,MRGPRF,Q96AM1,<i>MRGPRF</i>,Class A Orphans,MAS related GPR family member F
+180,MRGPRG,Q86SM5,<i>MRGPRG</i>,Class A Orphans,MAS related GPR family member G
+181,MRGPRX1,Q96LB2,<i>MRGPRX1</i>,Class A Orphans,MAS related GPR family member X1
+182,MRGPRX2,Q96LB1,<i>MRGPRX2</i>,Class A Orphans,MAS related GPR family member X2
+183,MRGPRX3,Q96LB0,<i>MRGPRX3</i>,Class A Orphans,MAS related GPR family member X3
+184,MRGPRX4,Q96LA9,<i>MRGPRX4</i>,Class A Orphans,MAS related GPR family member X4
+185,P2RY8,Q86VZ1,<i>P2RY8</i>,Class A Orphans,P2Y receptor family member 8
+186,P2RY10,O00398,<i>P2RY10</i>,Class A Orphans,P2Y receptor family member 10
+187,TAAR2,Q9P1P5,<i>TAAR2</i>,Class A Orphans,trace amine associated receptor 2
+188,TAAR3P,Q9P1P4,<i>TAAR3</i>,Class A Orphans,"trace amine associated receptor 3, pseudogene"
+190,TAAR5,O14804,<i>TAAR5</i>,Class A Orphans,trace amine associated receptor 5
+191,TAAR6,Q96RI8,<i>TAAR6</i>,Class A Orphans,trace amine associated receptor 6
+192,TAAR8,Q969N4,<i>TAAR8</i>,Class A Orphans,trace amine associated receptor 8
+193,TAAR9,Q96RI9,<i>TAAR9</i>,Class A Orphans,trace amine associated receptor 9
+194,GPR156,Q8NFN8,<i>GPR156</i>,Class C Orphans,G protein-coupled receptor 156
+195,GPR158,Q5T848,<i>GPR158</i>,Class C Orphans,G protein-coupled receptor 158
+196,GPR179,Q6PRD1,<i>GPR179</i>,Class C Orphans,G protein-coupled receptor 179
+197,GPRC5A,Q8NFJ5,<i>GPRC5A</i>,Class C Orphans,G protein-coupled receptor class C group 5 member A
+198,GPRC5B,Q9NZH0,<i>GPRC5B</i>,Class C Orphans,G protein-coupled receptor class C group 5 member B
+199,GPRC5C,Q9NQ84,<i>GPRC5C</i>,Class C Orphans,G protein-coupled receptor class C group 5 member C
+200,GPRC5D,Q9NZD1,<i>GPRC5D</i>,Class C Orphans,G protein-coupled receptor class C group 5 member D
+201,GPRC6A,Q5T6X5,GPRC6 receptor,Class C Orphans,G protein-coupled receptor class C group 6 member A
+202,FZD1,Q9UP38,FZD<sub>1</sub>,Class Frizzled GPCRs,frizzled class receptor 1
+203,FZD2,Q14332,FZD<sub>2</sub>,Class Frizzled GPCRs,frizzled class receptor 2
+204,FZD3,Q9NPG1,FZD<sub>3</sub>,Class Frizzled GPCRs,frizzled class receptor 3
+205,FZD4,Q9ULV1,FZD<sub>4</sub>,Class Frizzled GPCRs,frizzled class receptor 4
+206,FZD5,Q13467,FZD<sub>5</sub>,Class Frizzled GPCRs,frizzled class receptor 5
+207,FZD6,O60353,FZD<sub>6</sub>,Class Frizzled GPCRs,frizzled class receptor 6
+208,FZD7,O75084,FZD<sub>7</sub>,Class Frizzled GPCRs,frizzled class receptor 7
+209,FZD8,Q9H461,FZD<sub>8</sub>,Class Frizzled GPCRs,frizzled class receptor 8
+210,FZD9,O00144,FZD<sub>9</sub>,Class Frizzled GPCRs,frizzled class receptor 9
+211,FZD10,Q9ULW2,FZD<sub>10</sub>,Class Frizzled GPCRs,frizzled class receptor 10
+212,SMO,Q99835,SMO,Class Frizzled GPCRs,"smoothened, frizzled class receptor"
+213,C3AR1,Q16581,C3a receptor,Complement peptide receptors,complement C3a receptor 1
+214,C5AR1,P21730,C5a<sub>1</sub> receptor,Complement peptide receptors,complement C5a receptor 1
+215,C5AR2,Q9P296,C5a<sub>2</sub> receptor,Complement peptide receptors,complement C5a receptor 2
+216,CRHR1,P34998,CRF<sub>1</sub> receptor,Corticotropin-releasing factor receptors,corticotropin releasing hormone receptor 1
+217,CRHR2,Q13324,CRF<sub>2</sub> receptor,Corticotropin-releasing factor receptors,corticotropin releasing hormone receptor 2
+218,DRD1,P21728,D<sub>1</sub> receptor,Dopamine receptors,dopamine receptor D1
+219,DRD2,P14416,D<sub>2</sub> receptor,Dopamine receptors,dopamine receptor D2
+220,DRD3,P35462,D<sub>3</sub> receptor,Dopamine receptors,dopamine receptor D3
+221,DRD4,P21917,D<sub>4</sub> receptor,Dopamine receptors,dopamine receptor D4
+222,DRD5,P21918,D<sub>5</sub> receptor,Dopamine receptors,dopamine receptor D5
+223,EDNRA,P25101,ET<sub>A</sub> receptor,Endothelin receptors,endothelin receptor type A
+224,EDNRB,P24530,ET<sub>B</sub> receptor,Endothelin receptors,endothelin receptor type B
+225,FPR1,P21462,FPR1,Formylpeptide receptors,formyl peptide receptor 1
+226,FPR2,P25090,FPR2/ALX,Formylpeptide receptors,formyl peptide receptor 2
+227,FPR3,P25089,FPR3,Formylpeptide receptors,formyl peptide receptor 3
+228,FFAR1,O14842,FFA1 receptor,Free fatty acid receptors,free fatty acid receptor 1
+229,FFAR2,O15552,FFA2 receptor,Free fatty acid receptors,free fatty acid receptor 2
+230,FFAR3,O14843,FFA3 receptor,Free fatty acid receptors,free fatty acid receptor 3
+231,FFAR4,Q5NUL3,FFA4 receptor,Free fatty acid receptors,free fatty acid receptor 4
+234,GABBR1,Q9UBS5,GABA<sub>B1</sub>,GABA<sub>B</sub> receptors,gamma-aminobutyric acid type B receptor subunit 1
+235,GABBR2,O75899,GABA<sub>B2</sub>,GABA<sub>B</sub> receptors,gamma-aminobutyric acid type B receptor subunit 2
+236,GALR1,P47211,GAL<sub>1</sub> receptor,Galanin receptors,galanin receptor 1
+237,GALR2,O43603,GAL<sub>2</sub> receptor,Galanin receptors,galanin receptor 2
+238,GALR3,O60755,GAL<sub>3</sub> receptor,Galanin receptors,galanin receptor 3
+239,GHSR,Q92847,ghrelin receptor,Ghrelin receptor,growth hormone secretagogue receptor
+240,GHRHR,Q02643,GHRH receptor,Glucagon receptor family,growth hormone releasing hormone receptor
+241,GIPR,P48546,GIP receptor,Glucagon receptor family,gastric inhibitory polypeptide receptor
+242,GLP1R,P43220,GLP-1 receptor,Glucagon receptor family,glucagon like peptide 1 receptor
+243,GLP2R,O95838,GLP-2 receptor,Glucagon receptor family,glucagon like peptide 2 receptor
+244,GCGR,P47871,glucagon receptor,Glucagon receptor family,glucagon receptor
+245,SCTR,P47872,secretin receptor,Glucagon receptor family,secretin receptor
+246,FSHR,P23945,FSH receptor,Glycoprotein hormone receptors,follicle stimulating hormone receptor
+247,LHCGR,P22888,LH receptor,Glycoprotein hormone receptors,luteinizing hormone/choriogonadotropin receptor
+248,TSHR,P16473,TSH receptor,Glycoprotein hormone receptors,thyroid stimulating hormone receptor
+249,GNRHR,P30968,GnRH<sub>1</sub> receptor,Gonadotrophin-releasing hormone receptors,gonadotropin releasing hormone receptor
+250,GNRHR2,Q96P88,GnRH<sub>2</sub> receptor,Gonadotrophin-releasing hormone receptors,gonadotropin releasing hormone receptor 2 (pseudogene)
+251,GPR18,Q14330,<i>GPR18</i>,"GPR18, GPR55 and GPR119",G protein-coupled receptor 18
+252,GPR55,Q9Y2T6,<i>GPR55</i>,"GPR18, GPR55 and GPR119",G protein-coupled receptor 55
+253,GPR119,Q8TDV5,<i>GPR119</i>,"GPR18, GPR55 and GPR119",G protein-coupled receptor 119
+254,GPER1,Q99527,GPER,G protein-coupled estrogen receptor,G protein-coupled estrogen receptor 1
+255,HRH1,P35367,H<sub>1</sub> receptor,Histamine receptors,histamine receptor H1
+256,HRH2,P25021,H<sub>2</sub> receptor,Histamine receptors,histamine receptor H2
+257,HRH3,Q9Y5N1,H<sub>3</sub> receptor,Histamine receptors,histamine receptor H3
+258,HRH4,Q9H3N8,H<sub>4</sub> receptor,Histamine receptors,histamine receptor H4
+259,HCAR1,Q9BXC0,HCA<sub>1</sub> receptor,Hydroxycarboxylic acid receptors,hydroxycarboxylic acid receptor 1
+260,HCAR2,Q8TDS4,HCA<sub>2</sub> receptor,Hydroxycarboxylic acid receptors,hydroxycarboxylic acid receptor 2
+261,HCAR3,P49019,HCA<sub>3</sub> receptor,Hydroxycarboxylic acid receptors,hydroxycarboxylic acid receptor 3
+262,KISS1R,Q969F8,kisspeptin receptor,Kisspeptin receptor,KISS1 receptor
+263,LTB4R,Q15722,BLT<sub>1</sub> receptor,Leukotriene receptors,leukotriene B4 receptor
+264,LTB4R2,Q9NPC1,BLT<sub>2</sub> receptor,Leukotriene receptors,leukotriene B4 receptor 2
+265,CYSLTR1,Q9Y271,CysLT<sub>1</sub> receptor,Leukotriene receptors,cysteinyl leukotriene receptor 1
+266,CYSLTR2,Q9NS75,CysLT<sub>2</sub> receptor,Leukotriene receptors,cysteinyl leukotriene receptor 2
+267,OXER1,Q8TDS5,OXE receptor,Leukotriene receptors,oxoeicosanoid receptor 1
+269,LPAR1,Q92633,LPA<sub>1</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 1
+270,LPAR2,Q9HBW0,LPA<sub>2</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 2
+271,LPAR3,Q9UBY5,LPA<sub>3</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 3
+272,LPAR4,Q99677,LPA<sub>4</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 4
+273,LPAR5,Q9H1C0,LPA<sub>5</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 5
+274,LPAR6,P43657,LPA<sub>6</sub> receptor,Lysophospholipid (LPA) receptors,lysophosphatidic acid receptor 6
+275,S1PR1,P21453,S1P<sub>1</sub> receptor,Lysophospholipid (S1P) receptors,sphingosine-1-phosphate receptor 1
+276,S1PR2,O95136,S1P<sub>2</sub> receptor,Lysophospholipid (S1P) receptors,sphingosine-1-phosphate receptor 2
+277,S1PR3,Q99500,S1P<sub>3</sub> receptor,Lysophospholipid (S1P) receptors,sphingosine-1-phosphate receptor 3
+278,S1PR4,O95977,S1P<sub>4</sub> receptor,Lysophospholipid (S1P) receptors,sphingosine-1-phosphate receptor 4
+279,S1PR5,Q9H228,S1P<sub>5</sub> receptor,Lysophospholipid (S1P) receptors,sphingosine-1-phosphate receptor 5
+280,MCHR1,Q99705,MCH<sub>1</sub> receptor,Melanin-concentrating hormone receptors,melanin concentrating hormone receptor 1
+281,MCHR2,Q969V1,MCH<sub>2</sub> receptor,Melanin-concentrating hormone receptors,melanin concentrating hormone receptor 2
+282,MC1R,Q01726,MC<sub>1</sub> receptor,Melanocortin receptors,melanocortin 1 receptor
+283,MC2R,Q01718,MC<sub>2</sub> receptor,Melanocortin receptors,melanocortin 2 receptor
+284,MC3R,P41968,MC<sub>3</sub> receptor,Melanocortin receptors,melanocortin 3 receptor
+285,MC4R,P32245,MC<sub>4</sub> receptor,Melanocortin receptors,melanocortin 4 receptor
+286,MC5R,P33032,MC<sub>5</sub> receptor,Melanocortin receptors,melanocortin 5 receptor
+287,MTNR1A,P48039,MT<sub>1</sub> receptor,Melatonin receptors,melatonin receptor 1A
+288,MTNR1B,P49286,MT<sub>2</sub> receptor,Melatonin receptors,melatonin receptor 1B
+289,GRM1,Q13255,mGlu<sub>1</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 1
+290,GRM2,Q14416,mGlu<sub>2</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 2
+291,GRM3,Q14832,mGlu<sub>3</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 3
+292,GRM4,Q14833,mGlu<sub>4</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 4
+293,GRM5,P41594,mGlu<sub>5</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 5
+294,GRM6,O15303,mGlu<sub>6</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 6
+295,GRM7,Q14831,mGlu<sub>7</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 7
+296,GRM8,O00222,mGlu<sub>8</sub> receptor,Metabotropic glutamate receptors,glutamate metabotropic receptor 8
+297,MLNR,O43193,motilin receptor,Motilin receptor,motilin receptor
+298,NMUR1,Q9HB89,NMU1 receptor,Neuromedin U receptors,neuromedin U receptor 1
+299,NMUR2,Q9GZQ4,NMU2 receptor,Neuromedin U receptors,neuromedin U receptor 2
+300,NPFFR1,Q9GZQ6,NPFF1 receptor,Neuropeptide FF/neuropeptide AF receptors,neuropeptide FF receptor 1
+301,NPFFR2,Q9Y5X5,NPFF2 receptor,Neuropeptide FF/neuropeptide AF receptors,neuropeptide FF receptor 2
+302,NPSR1,Q6W5P4,NPS receptor,Neuropeptide S receptor,neuropeptide S receptor 1
+303,NPBWR1,P48145,NPBW1 receptor,Neuropeptide W/neuropeptide B receptors,neuropeptides B and W receptor 1
+304,NPBWR2,P48146,NPBW2 receptor,Neuropeptide W/neuropeptide B receptors,neuropeptides B and W receptor 2
+305,NPY1R,P25929,Y<sub>1</sub> receptor,Neuropeptide Y receptors,neuropeptide Y receptor Y1
+306,NPY2R,P49146,Y<sub>2</sub> receptor,Neuropeptide Y receptors,neuropeptide Y receptor Y2
+307,NPY4R,P50391,Y<sub>4</sub> receptor,Neuropeptide Y receptors,neuropeptide Y receptor Y4
+308,NPY5R,Q15761,Y<sub>5</sub> receptor,Neuropeptide Y receptors,neuropeptide Y receptor Y5
+309,NPY6R,Q99463,y<sub>6</sub> receptor,Neuropeptide Y receptors,neuropeptide Y receptor Y6 (pseudogene)
+310,NTSR1,P30989,NTS<sub>1</sub> receptor,Neurotensin receptors,neurotensin receptor 1
+311,NTSR2,O95665,NTS<sub>2</sub> receptor,Neurotensin receptors,neurotensin receptor 2
+312,OPRD1,P41143,&delta; receptor,Opioid receptors,opioid receptor delta 1
+313,OPRK1,P41145,&kappa; receptor,Opioid receptors,opioid receptor kappa 1
+314,OPRM1,P35372,&mu; receptor,Opioid receptors,opioid receptor mu 1
+315,OPRL1,P41146,NOP receptor,Opioid receptors,opioid related nociceptin receptor 1
+316,OPN1LW,P04000,<i>OPN1LW</i>,Opsin receptors,"opsin 1, long wave sensitive"
+317,OPN1MW,P04001,<i>OPN1MW</i>,Opsin receptors,"opsin 1, medium wave sensitive"
+318,OPN1SW,P03999,<i>OPN1SW</i>,Opsin receptors,"opsin 1, short wave sensitive"
+319,RHO,P08100,Rhodopsin,Opsin receptors,rhodopsin
+320,OPN3,Q9H1Y3,<i>OPN3</i>,Opsin receptors,opsin 3
+321,OPN4,Q9UHM6,<i>OPN4</i>,Opsin receptors,opsin 4
+322,OPN5,Q6U736,<i>OPN5</i>,Opsin receptors,opsin 5
+323,HCRTR1,O43613,OX<sub>1</sub> receptor,Orexin receptors,hypocretin receptor 1
+324,HCRTR2,O43614,OX<sub>2</sub> receptor,Orexin receptors,hypocretin receptor 2
+325,GPR107,Q5VW38,<i>GPR107</i>,Other 7TM proteins,G protein-coupled receptor 107
+326,GPR137,Q96N19,<i>GPR137</i>,Other 7TM proteins,G protein-coupled receptor 137
+327,TPRA1,Q86W33,<i>TPRA1</i>,Other 7TM proteins,transmembrane protein adipocyte associated 1
+328,GPR143,P51810,<i>GPR143</i>,Other 7TM proteins,G protein-coupled receptor 143
+329,GPR157,Q5UAW9,<i>GPR157</i>,Other 7TM proteins,G protein-coupled receptor 157
+330,OXGR1,Q96P68,oxoglutarate receptor,Oxoglutarate receptor,oxoglutarate receptor 1
+331,P2RY1,P47900,P2Y<sub>1</sub> receptor,P2Y receptors,purinergic receptor P2Y1
+332,P2RY2,P41231,P2Y<sub>2</sub> receptor,P2Y receptors,purinergic receptor P2Y2
+333,P2RY4,P51582,P2Y<sub>4</sub> receptor,P2Y receptors,pyrimidinergic receptor P2Y4
+334,P2RY6,Q15077,P2Y<sub>6</sub> receptor,P2Y receptors,pyrimidinergic receptor P2Y6
+335,P2RY11,Q96G91,P2Y<sub>11</sub> receptor,P2Y receptors,purinergic receptor P2Y11
+336,P2RY12,Q9H244,P2Y<sub>12</sub> receptor,P2Y receptors,purinergic receptor P2Y12
+337,P2RY13,Q9BPV8,P2Y<sub>13</sub> receptor,P2Y receptors,purinergic receptor P2Y13
+338,P2RY14,Q15391,P2Y<sub>14</sub> receptor,P2Y receptors,purinergic receptor P2Y14
+339,PTH1R,Q03431,PTH1 receptor,Parathyroid hormone receptors,parathyroid hormone 1 receptor
+340,PTH2R,P49190,PTH2 receptor,Parathyroid hormone receptors,parathyroid hormone 2 receptor
+341,PTAFR,P25105,PAF receptor,Platelet-activating factor receptor,platelet activating factor receptor
+342,PROKR1,Q8TCW9,PKR<sub>1</sub>,Prokineticin receptors,prokineticin receptor 1
+343,PROKR2,Q8NFJ6,PKR<sub>2</sub>,Prokineticin receptors,prokineticin receptor 2
+344,PRLHR,P49683,PrRP receptor,Prolactin-releasing peptide receptor,prolactin releasing hormone receptor
+345,PTGDR,Q13258,DP<sub>1</sub> receptor,Prostanoid receptors,prostaglandin D2 receptor
+346,PTGDR2,Q9Y5Y4,DP<sub>2</sub> receptor,Prostanoid receptors,prostaglandin D2 receptor 2
+347,PTGER1,P34995,EP<sub>1</sub> receptor,Prostanoid receptors,prostaglandin E receptor 1
+348,PTGER2,P43116,EP<sub>2</sub> receptor,Prostanoid receptors,prostaglandin E receptor 2
+349,PTGER3,P43115,EP<sub>3</sub> receptor,Prostanoid receptors,prostaglandin E receptor 3
+350,PTGER4,P35408,EP<sub>4</sub> receptor,Prostanoid receptors,prostaglandin E receptor 4
+351,PTGFR,P43088,FP receptor,Prostanoid receptors,prostaglandin F receptor
+352,PTGIR,P43119,IP receptor,Prostanoid receptors,prostaglandin I2 receptor
+353,TBXA2R,P21731,TP receptor,Prostanoid receptors,thromboxane A2 receptor
+354,F2R,P25116,PAR1,Proteinase-activated receptors,coagulation factor II thrombin receptor
+355,F2RL1,P55085,PAR2,Proteinase-activated receptors,F2R like trypsin receptor 1
+356,F2RL2,O00254,PAR3,Proteinase-activated receptors,coagulation factor II thrombin receptor like 2
+357,F2RL3,Q96RI0,PAR4,Proteinase-activated receptors,F2R like thrombin or trypsin receptor 3
+358,QRFPR,Q96P65,QRFP receptor,QRFP receptor,pyroglutamylated RFamide peptide receptor
+359,RXFP1,Q9HBX9,RXFP1,Relaxin family peptide receptors,relaxin family peptide receptor 1
+360,RXFP2,Q8WXD0,RXFP2,Relaxin family peptide receptors,relaxin family peptide receptor 2
+361,RXFP3,Q9NSD7,RXFP3,Relaxin family peptide receptors,relaxin family peptide receptor 3
+362,RXFP4,Q8TDU9,RXFP4,Relaxin family peptide receptors,relaxin family peptide/INSL5 receptor 4
+363,SSTR1,P30872,SST<sub>1</sub> receptor,Somatostatin receptors,somatostatin receptor 1
+364,SSTR2,P30874,SST<sub>2</sub> receptor,Somatostatin receptors,somatostatin receptor 2
+365,SSTR3,P32745,SST<sub>3</sub> receptor,Somatostatin receptors,somatostatin receptor 3
+366,SSTR4,P31391,SST<sub>4</sub> receptor,Somatostatin receptors,somatostatin receptor 4
+367,SSTR5,P35346,SST<sub>5</sub> receptor,Somatostatin receptors,somatostatin receptor 5
+368,SUCNR1,Q9BXA5,succinate receptor,Succinate receptor,succinate receptor 1
+369,TACR1,P25103,NK<sub>1</sub> receptor,Tachykinin receptors,tachykinin receptor 1
+370,TACR2,P21452,NK<sub>2</sub> receptor,Tachykinin receptors,tachykinin receptor 2
+371,TACR3,P29371,NK<sub>3</sub> receptor,Tachykinin receptors,tachykinin receptor 3
+372,TAS1R1,Q7RTX1,<i>TAS1R1</i>,Taste 1 receptors,taste 1 receptor member 1
+373,TAS1R2,Q8TE23,<i>TAS1R2</i>,Taste 1 receptors,taste 1 receptor member 2
+374,TAS1R3,Q7RTX0,<i>TAS1R3</i>,Taste 1 receptors,taste 1 receptor member 3
+375,TAS2R1,Q9NYW7,<i>TAS2R1</i>,Taste 2 receptors,taste 2 receptor member 1
+376,TAS2R3,Q9NYW6,<i>TAS2R3</i>,Taste 2 receptors,taste 2 receptor member 3
+377,TAS2R4,Q9NYW5,<i>TAS2R4</i>,Taste 2 receptors,taste 2 receptor member 4
+378,TAS2R5,Q9NYW4,<i>TAS2R5</i>,Taste 2 receptors,taste 2 receptor member 5
+379,TAS2R7,Q9NYW3,<i>TAS2R7</i>,Taste 2 receptors,taste 2 receptor member 7
+380,TAS2R8,Q9NYW2,<i>TAS2R8</i>,Taste 2 receptors,taste 2 receptor member 8
+381,TAS2R9,Q9NYW1,<i>TAS2R9</i>,Taste 2 receptors,taste 2 receptor member 9
+382,TAS2R10,Q9NYW0,<i>TAS2R10</i>,Taste 2 receptors,taste 2 receptor member 10
+383,TAS2R13,Q9NYV9,<i>TAS2R13</i>,Taste 2 receptors,taste 2 receptor member 13
+384,TAS2R14,Q9NYV8,<i>TAS2R14</i>,Taste 2 receptors,taste 2 receptor member 14
+385,TAS2R16,Q9NYV7,<i>TAS2R16</i>,Taste 2 receptors,taste 2 receptor member 16
+386,TAS2R19,P59542,<i>TAS2R19</i>,Taste 2 receptors,taste 2 receptor member 19
+387,TAS2R20,P59543,<i>TAS2R20</i>,Taste 2 receptors,taste 2 receptor member 20
+388,TAS2R30,P59541,<i>TAS2R30</i>,Taste 2 receptors,taste 2 receptor member 30
+389,TAS2R31,P59538,<i>TAS2R31</i>,Taste 2 receptors,taste 2 receptor member 31
+390,TAS2R38,P59533,<i>TAS2R38</i>,Taste 2 receptors,taste 2 receptor member 38
+391,TAS2R39,P59534,<i>TAS2R39</i>,Taste 2 receptors,taste 2 receptor member 39
+392,TAS2R40,P59535,<i>TAS2R40</i>,Taste 2 receptors,taste 2 receptor member 40
+393,TAS2R41,P59536,<i>TAS2R41</i>,Taste 2 receptors,taste 2 receptor member 41
+394,TAS2R42,Q7RTR8,<i>TAS2R42</i>,Taste 2 receptors,taste 2 receptor member 42
+395,TAS2R43,P59537,<i>TAS2R43</i>,Taste 2 receptors,taste 2 receptor member 43
+396,TAS2R45,P59539,<i>TAS2R45</i>,Taste 2 receptors,taste 2 receptor member 45
+397,TAS2R46,P59540,<i>TAS2R46</i>,Taste 2 receptors,taste 2 receptor member 46
+398,TAS2R50,P59544,<i>TAS2R50</i>,Taste 2 receptors,taste 2 receptor member 50
+399,TAS2R60,P59551,<i>TAS2R60</i>,Taste 2 receptors,taste 2 receptor member 60
+400,TRHR,P34981,TRH<sub>1</sub> receptor,Thyrotropin-releasing hormone receptors,thyrotropin releasing hormone receptor
+402,TAAR1,Q96RJ0,TA<sub>1</sub> receptor,Trace amine receptor,trace amine associated receptor 1
+403,UTS2R,Q9UKP6,UT receptor,Urotensin receptor,urotensin 2 receptor
+404,AVPR1A,P37288,V<sub>1A</sub> receptor,Vasopressin and oxytocin receptors,arginine vasopressin receptor 1A
+405,AVPR1B,P47901,V<sub>1B</sub> receptor,Vasopressin and oxytocin receptors,arginine vasopressin receptor 1B
+406,AVPR2,P30518,V<sub>2</sub> receptor,Vasopressin and oxytocin receptors,arginine vasopressin receptor 2
+407,OXTR,P30559,OT receptor,Vasopressin and oxytocin receptors,oxytocin receptor
+408,ADCYAP1R1,P41586,PAC<sub>1</sub> receptor,VIP and PACAP receptors,ADCYAP receptor type I
+409,VIPR1,P32241,VPAC<sub>1</sub> receptor,VIP and PACAP receptors,vasoactive intestinal peptide receptor 1
+410,VIPR2,P41587,VPAC<sub>2</sub> receptor,VIP and PACAP receptors,vasoactive intestinal peptide receptor 2
